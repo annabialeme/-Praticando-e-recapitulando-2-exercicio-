@@ -5,20 +5,31 @@
     background-color: rgb(255, 255, 255);
 }
 
-.site-header {
+.caixa, .caixa2 {
     background-color: #fca746;
-    width: calc(100% - 10px);
-    height: 30vh;
-    margin: 5px 5px 0 5px;
-    text-align: center;
+    width: 800px;
+    height: 20vh;
+    margin: 5px;
+
+
+}
+.container {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+
 }
 
-.site-nav{
+.verde {
     background-color: #d8ed37;
-    width: calc(100% - 10px);
-    height: 70vh;
+    height: 60vh;
     margin: 5px 5px 0 5px;
-    text-align: center;
+    
+    
+
+
 }
 
 main {
@@ -31,20 +42,18 @@ div {
     width: calc(100% - 0px);
 }
 
-.site-section {
+.azul{
     background-color: #4f87ca;
     width: calc(100% - 10px);
     height: 40vh;
     margin: 5px 5px 0 5px;
-    text-align: center;
 }
 
 
 
-.site-footer {
+.cinza {
     background-color: #e2e2e2;
     width: calc(100% - 10px);
     height: 40vh;
     margin: 5px 5px 0 5px;
-    text-align: center;
 }
